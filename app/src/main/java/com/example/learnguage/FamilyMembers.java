@@ -26,7 +26,7 @@ public class FamilyMembers extends Fragment {
         word_list.add(new word("Younger Sister",R.drawable.ic_launcher_background,"Bahen / Choti Bahen"));
         word_list.add(new word("Elder Sister",R.drawable.ic_launcher_background,"Didi / Badi Bahen"));
         word_list.add(new word("Younger Brother",R.drawable.ic_launcher_background,"Bhai / Chota Bhai"));
-        word_list.add(new word("Elder Brother",R.drawable.ic_launcher_background,"Bhaiya / Bada Bhai"));
+        word_list.add(new word("Elder Brother",R.drawable.ic_launcher_background,"Bhaiya / Bad Bhai"));
 
         AdapterClass adapter = new AdapterClass(getActivity(),word_list);
         adapter.number = 1;
