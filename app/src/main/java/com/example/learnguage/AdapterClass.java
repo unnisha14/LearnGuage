@@ -49,8 +49,7 @@ public class AdapterClass extends ArrayAdapter<word> {
         else if (number == 1 || number == 3){
             num.setVisibility(View.GONE);
             layout.setVisibility(View.GONE);
-
-            imageView.setImageResource(current.getImage());
+            imageView.setVisibility(View.GONE);
         }
         else if (number == 2){
             imageView.setVisibility(View.GONE);

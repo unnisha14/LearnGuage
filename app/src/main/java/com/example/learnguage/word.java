@@ -14,16 +14,18 @@ public class word {
         audio = z;
     }
 
-    public word(String x,int p,int q,int r,String z){
+    public word(String x,int p,int q,int r,String z,int audio){
         defaultWord = x;
         hindWord = z;
         a = p;b = q;c = r;
+        this.audio = audio;
     }
 
-    public word(String x,int a,String y){
+    public word(String x,int p,String y,int q){
         defaultWord = x;
         hindWord = y;
-        image = a;
+        image = p;
+        audio = q;
     }
 
     public int getAudio() {
